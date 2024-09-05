@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap');
+
+
+.dashboard_div{
+    position:absolute;
+    top:20%;
+    right:6%;
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+}
+.menu_dashboard{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+color: #77248BB5;
+
+}
+
+.items{
+    display:flex;
+    flex-direction: row;
+    gap:10.4rem;
+}
+
+.item{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #9f48b5;
+
+}
+
+.under_item{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.input{
+    width: 110px;
+height: 25px;
+top: 52.6px;
+padding: 13px 129px 9px 24px;
+
+border-radius: 3px;  
+border: 1px solid #13131340;
+background: #FFFFFF;
+font-family: Pontano Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #13131399;
+
+
+}
+
+.color_div{
+    width: 1070px;
+    height: 59px;
+    background: #A05BB0B5;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:22rem;
+    padding-left: 4rem;
+
+
+}
+
+.category,.item_name,.eta{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 800;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.second_div{
+    width: 1130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap:2rem;
+    height:59px;
+    border: 1px solid #13131340;
+    padding-right: 0.3rem;
+
+
+
+}
+
+
+.spans{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width:1129px;
+    align-items: center;
+    
+    padding-left:4rem;
+    gap:15.5rem;
+}
+.span3{
+    display: flex;
+    justify-content: center;
+}
+.span2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.itm{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #c066d7;
+height:3rem;
+width:10rem;
+display: flex;
+align-items: center;
+
+}
+
+.delete{
+    width: 24px;
+height: 24px;
+top: 18px;
+left: 1073px;
+
+}
+
+.delete{
+    cursor: pointer;
+    padding:4px;
+    border-radius:50%;
+    border:1px solid white;
+    background-color: white;
+    
+}
+.delete:hover{
+    border-radius:50%;
+    border:1px solid rgb(214, 211, 211);
+    background-color: rgb(233, 225, 225);
+    padding:4px;
+}
+
+.button{
+    border:none;
+    background-color: transparent;
+}
+@media screen and (max-width:600px){
+    .dashboard_div{
+        top:10%;
+        left:5%;
+        gap:2rem;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8rem;
+    }
+
+    .menu_dashboard{
+        font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #8d40a0b5;
+    margin-top:1rem
+    
+    }
+    .items{
+        display:flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+
+    .color_div{
+        width: 300px;
+        height: 50px;
+        background: #A05BB0B5;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        gap:2rem;
+        padding-right: 3rem;
+    
+    
+    }
+    .spans{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        width:200px;
+        align-items: center;
+        
+        gap:3.5rem;
+    }
+    .second_div{
+        width: 360px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap:2rem;
+        height:70px;
+        border: 1px solid #13131340;
+    
+    
+    
+    }
+
+    .both_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .itm{
+        font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #77248B;
+    height:3rem;
+    width:20rem;
+    
+    }
+
+    .items{
+        gap:1rem;
+    }
+
+    .category,.item_name,.eta{
+        font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    
+    }
+
+    .input{
+        width:100px;
+        
+padding: 13px 90px 9px 24px;
+
+border-radius: 3px;  
+border: 1px solid #79747440;
+background: #FFFFFF;
+font-family: Pontano Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #13131399;
+    }
+    
+}
